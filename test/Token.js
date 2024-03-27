@@ -1,8 +1,7 @@
-const { expect } = require("chai");
-const { ethers } = require("ethers");
+import {expect} from "chai"
+import { ethers } from "ethers";
 
 describe("Token contract", function () {
- 
   it("Deployment should assign the total supply of tokens to the owner", async function () {
     const [owner] = await ethers.getSigners(); // Use ethers.getSigners() to retrieve the signers
     // Your test logic here

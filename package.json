@@ -12,5 +12,8 @@
     "@nomicfoundation/hardhat-toolbox": "^4.0.0",
     "@nomicfoundation/hardhat-toolbox-viem": "^2.0.0",
     "hardhat": "^2.21.0"
+  },
+  "dependencies": {
+    "ethers": "^6.11.1"
   }
 }
